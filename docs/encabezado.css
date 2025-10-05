@@ -1,0 +1,91 @@
+header {
+    background-color: #fff;
+    padding: 2rem 0;
+    border-bottom: 2px solid #9078D3;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #5c3cb8;
+}
+
+/* Navegación principal */
+nav {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav a {
+    color: #5c3cb8;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+/* Estilos para la navegación con lista */
+.navegacion-principal {
+    margin-top: 1rem;
+}
+
+.menu-navegacion {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacion li {
+    margin: 0;
+}
+
+.menu-navegacion a,
+.nav-link {
+    color: #5c3cb8;
+    text-decoration: none;
+    margin: 0 1rem;
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 0.5rem 0;
+    }
+
+    .menu-navegacion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-navegacion li {
+        margin: 0.3rem 0;
+    }
+
+    .menu-navegacion a,
+    .nav-link {
+        margin: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav a,
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}

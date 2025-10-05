@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi biografía — Daniel Pérez</title>
+  
+  <link rel="stylesheet" href="encabezado.css" />
+  <link rel="stylesheet" href="estiloDesktop.css" />
+  <link rel="stylesheet" href="piedepagina.css" />
+</head>
+<body>
+  
+  <header>
+    <h1>Daniel Pérez</h1>
+    <nav aria-label="Navegación principal">
+      <ul class="menu-navegacion">
+        <li><a class="nav-link" href="index.html">Inicio</a></li>
+        <li><a class="nav-link" href="MiBiografia_DPerez.html" aria-current="page">Mi biografía</a></li>
+        <li><a class="nav-link" href="tema.html">Tema</a></li>
+        <li><a class="nav-link" href="curriculo.html">Currículo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    
+    <section class="texto-intro" aria-labelledby="titulo-intro">
+      <h2 id="titulo-intro">Sobre mí</h2>
+      <p>Soy Daniel Pérez. Me apasionan los videojuegos y el desarrollo de proyectos que se centran en esta temática. Disfruto escuchar música, ver series y películas en mi tiempo libre; también disfruto de la actividad física, ya que suelo asistir al gimnasio.</p>
+      <p>Mi sitio favorito: <a href="https://www3.animeflv.net" target="_blank" rel="noopener">https://www3.animeflv.net</a></p>
+    </section>
+
+    
+    <section class="foto-perfil" aria-labelledby="titulo-foto">
+      <h2 id="titulo-foto">Foto</h2>
+      <figure>
+        <img src="imagenes/daniel.jpeg" alt="Fotografía de Daniel Pérez" width="280" />
+        <figcaption>Daniel Pérez</figcaption>
+      </figure>
+    </section>
+
+    
+    <section class="pasatiempos" aria-labelledby="titulo-pasatiempos">
+      <h2 id="titulo-pasatiempos">Mis pasatiempos</h2>
+      <div class="pasatiempo-grid">
+        <article class="pasatiempo"><h3>Videojuegos</h3><p>Jugar y analizar nuevas mecánicas.</p></article>
+        <article class="pasatiempo"><h3>Programación</h3><p>Proyectos cortos y experimentales.</p></article>
+        <article class="pasatiempo"><h3>Música</h3><p>Escuchar playlists mientras estudio.</p></article>
+        <article class="pasatiempo"><h3>Ejercicio</h3><p>Entrenamiento regular en el gimnasio.</p></article>
+      </div>
+    </section>
+
+    
+    <section class="cualidades" aria-labelledby="titulo-cualidades">
+      <h2 id="titulo-cualidades">Mis cualidades</h2>
+      <div class="cualidades-grid">
+        <article class="cualidad"><h3>Responsabilidad</h3><p>Cumplo objetivos con disciplina y orden.</p></article>
+        <article class="cualidad"><h3>Curiosidad</h3><p>Busco entender el porqué de las cosas.</p></article>
+        <article class="cualidad"><h3>Trabajo en equipo</h3><p>Escucho y aporto lo necesario.</p></article>
+        <article class="cualidad"><h3>Creatividad</h3><p>Suelo tener ideas diferentes al resto.</p></article>
+        <article class="cualidad"><h3>Perseverancia</h3><p>Paciencia para llegar hasta el final.</p></article>
+      </div>
+    </section>
+
+    
+    <section aria-labelledby="titulo-libros">
+      <h2 id="titulo-libros">Mis libros favoritos</h2>
+      <p>No leo por gusto actualmente, por lo que no tengo una lista de libros favoritos.</p>
+    </section>
+
+    
+    <section aria-labelledby="titulo-peliculas">
+      <h2 id="titulo-peliculas">Películas favoritas</h2>
+      <div class="peliculas-grid">
+        <article class="pelicula">
+          <h3>Acción</h3>
+          <ul>
+            <li>Iron Man</li>
+            <li>Rambo</li>
+          </ul>
+        </article>
+        <article class="pelicula">
+          <h3>Ciencia ficción</h3>
+          <ul>
+            <li>Interestelar</li>
+            <li>Dune</li>
+          </ul>
+        </article>
+        <article class="pelicula">
+          <h3>Animación</h3>
+          <ul>
+            <li>Kung Fu Panda</li>
+            <li>Shrek 2</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    
+    <section class="tabla-container" aria-labelledby="titulo-canciones">
+      <h2 id="titulo-canciones">Canciones favoritas</h2>
+      <table>
+        <caption>Listado de canciones favoritas</caption>
+        <thead>
+          <tr>
+            <th>Nombre de la canción</th>
+            <th>Género</th>
+            <th>Cantante/Grupo</th>
+            <th>Álbum</th>
+            <th>Año</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>I Don’t Want to Miss a Thing</td>
+            <td>Rock</td>
+            <td>Aerosmith</td>
+            <td>Sencillo</td>
+            <td>1998</td>
+          </tr>
+          <tr>
+            <td>Grenade</td>
+            <td>Pop</td>
+            <td>Bruno Mars</td>
+            <td>Sencillo</td>
+            <td>2010</td>
+          </tr>
+          <tr>
+            <td>Beat It</td>
+            <td>Pop</td>
+            <td>Michael Jackson</td>
+            <td>Sencillo</td>
+            <td>1983</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    
+    <section class="media-item" aria-labelledby="titulo-video">
+      <h2 id="titulo-video">Presentación</h2>
+      <div class="video-container">
+        <video controls width="480">
+          <source src="videos/pp.mp4" type="video/mp4" />
+          Tu navegador no soporta el elemento <code>video</code>.
+        </video>
+      </div>
+    </section>
+
+    <section class="audio-container" aria-labelledby="titulo-audio">
+      <h2 id="titulo-audio">Audio favorito</h2>
+      <audio controls>
+        <source src="audios/beat.mp3" type="audio/mpeg" />
+        Tu navegador no soporta el elemento <code>audio</code>.
+      </audio>
+    </section>
+
+    
+    <section aria-labelledby="titulo-youtube">
+      <h2 id="titulo-youtube">Artista</h2>
+      <div class="youtube-container">
+        <iframe 
+          src="https://www.youtube.com/embed/jnOw8lWBejg" 
+          title="Twenty One Pilots — The LINE (Arcane FMV Mix)"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+   
+    <div class="volver-button">
+      <a href="index.html">Volver al inicio</a>
+    </div>
+  </main>
+
+ 
+  <footer>
+    <p>&copy; 2025 Daniel Pérez — Ingeniería Web</p>
+  </footer>
+</body>
+</html>
